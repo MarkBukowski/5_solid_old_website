@@ -33,10 +33,6 @@ nav, .navlist {
     padding: 15px;
 }
 
-.navlist {
-    background-color: #fff;
-}
-
 .logoDiv {
     display: flex;
     justify-content: center;
@@ -45,7 +41,7 @@ nav, .navlist {
     text-decoration: none;
 }
 
-.logoDiv h2 {
+.logoDiv h1 {
     font-weight: 500;
     font-size: 20px;
     color: #707070;
@@ -74,13 +70,57 @@ nav, .navlist {
     color: #7C4DFF;
 }
 
-/* END OF NAV */
-/* TODO: add hover effect of the visible section of the page (section name glows in purpel */
-
-.solidLogoBigger {
-    height: 225px;
+.navLock {
+    /* position: fixed; */
+    background-color: #fff;
 }
 
+/* END OF NAV */
+/* TODO: add hover effect of the visible section of the page (section name glows in purpel */
+/* TODO: check if possible to remove pixel jumps when comparing to original website */
 
 
+.solidLogoBigger {
+    height: 250px;
+}
 
+.section1 {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    margin: 54px 0;
+    width: 580px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    color: #777;
+    margin: 20px 0 10px;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.introText {
+    width: 740px;
+}
+
+/* END OF SECTION 1 */
+
+.section2 {
+ background-color: #F5F5F5;
+}
