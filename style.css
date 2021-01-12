@@ -110,6 +110,14 @@ h2 {
     margin: 20px 0 10px;
 }
 
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
 p {
     line-height: 28px;
     margin-bottom: 20px;
@@ -122,5 +130,40 @@ p {
 /* END OF SECTION 1 */
 
 .section2 {
- background-color: #F5F5F5;
+    background-color: #F5F5F5;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
 }
+
+.offersIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offersIntro p {
+    margin: 0 7%;
+    text-align: center;
+}
+
+.offersRow {
+    margin: 0 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 86%;
+    background-color: greenyellow;
+}
+
+.offersRow h3 {
+    text-align: center;
+}
+
+/* /////////////////////////////////////////////////////// */
+img {
+    height: 100px;
+}
+/* ////////////////////////////////////////////////////// */
