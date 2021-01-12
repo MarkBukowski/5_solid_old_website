@@ -15,6 +15,13 @@ body * {
     width: 100%;
 }
 
+.centerColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar {
     margin: auto;
     width: 85%;
@@ -53,14 +60,13 @@ nav, .navlist {
 }
 
 .yellowMsg {
+    padding: 0 15px;
     background-color: yellow;
     display: flex;
-    justify-content: center;
 }
 
-.yellowMsg h3 {
-    font-size: 1.3em;
-    padding: 0 15px;
+#redirectMessage {
+    font-size: 23.4px;
 }
 
 .yellowMsg a {
@@ -84,17 +90,8 @@ nav, .navlist {
     height: 250px;
 }
 
-.section1 {
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-}
-
-.intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sectionWhite {
+    padding: 60px 0;
 }
 
 hr {
@@ -102,20 +99,20 @@ hr {
     width: 580px;
 }
 
-h2 {
+h2, h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size: 36px;
-    color: #777;
     margin: 20px 0 10px;
 }
 
+h2 {
+    font-size: 36px;
+    color: #777;
+}
+
 h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
     font-size: 26px;
     color: #333;
-    margin: 20px 0 10px;
 }
 
 p {
@@ -123,8 +120,9 @@ p {
     margin-bottom: 20px;
 }
 
-.introText {
+.paragraphText {
     width: 740px;
+    text-align: center;
 }
 
 /* END OF SECTION 1 */
@@ -134,13 +132,7 @@ p {
     display: flex;
     align-content: center;
     flex-direction: column;
-}
-
-.offersIntro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 60px 0;
 }
 
 .offersIntro p {
@@ -155,11 +147,24 @@ p {
     align-items: center;
     align-content: center;
     width: 86%;
-    background-color: greenyellow;
 }
 
 .offersRow h3 {
     text-align: center;
+}
+
+.offerLogo {
+    height: 55px;
+    width: 54px;
+}
+
+.snowflake {
+    width: 46px;
+}
+
+.offerArgument {
+    width: 355px;
+    justify-content: flex-start ;
 }
 
 /* /////////////////////////////////////////////////////// */
