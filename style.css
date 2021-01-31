@@ -11,6 +11,10 @@ body * {
     color: #555;
 }
 
+.mgt-20 {
+    margin-top: 20px;
+}
+
 .wrapper {
     width: 100%;
 }
@@ -28,6 +32,7 @@ body * {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    line-height: 20px;
 }
 
 nav, .navlist {
@@ -110,6 +115,7 @@ h2, h3 {
 h2 {
     font-size: 36px;
     color: #777;
+    text-align: center;
 }
 
 h3 {
@@ -173,19 +179,50 @@ p {
 /* END OF SECTION 2 & 3 */
 
 .person {
-    width: 390px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 380px;
     text-align: center;
     padding: 0 15px;
     margin-top: 20px;
 }
 
+.person .team {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e3e3e3;
+
+}
+
+.team {
+    display: inline-block;
+}
+
+.team > a {
+    margin-top: 5px;
+    color: #7c4dff;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.team:hover {
+    background-color: #7c4dff;
+    transition: all 0.3s;
+}
+
+.team:hover > a {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.alumni > a, i {
+    color: #7c4dff;
+    font-size: 16px;
+}
+
 .personLayout {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -199,13 +236,70 @@ p {
     font-weight: 600;
     margin: 20px 0 10px;
     color: black;
-    line-height: 1.1;
+}
+
+/* end of team & alumni */
+/* ////////////////////////////////////////////// */
+/* sponsors section */
+
+.qcriLogo {
+    width: 350px;
+}
+
+.mastercardLogo {
+    width: 300px;
+    height: 180px;
+}
+
+.sponsorLogos {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* /////////////////////////////////////////////// */
+/* contact us */
+
+.contactLayout {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contactUs {
 
 }
 
+.contactInfo {
+    width: 380px;
+    text-align: center;
+    padding: 0 15px;
+    margin-top: 20px;
+}
 
+.contactInfo > a {
+    text-decoration: none;
+    color: #7c4dff;
+}
 
+.contactIcon {
+    color: #7c4dff;
+    margin: 0 0 15px;
+}
 
+/* /////////////////////////////////// */
+/* footer */
 
+footer {
+    text-align: center;
+    background-color: #2b2b2b;
+    padding: 25px 0 15px;
+}
 
-
+footer > p { 
+    color: white;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 15px;
+}

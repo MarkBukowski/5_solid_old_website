@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solid</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./all.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -142,7 +142,9 @@
                         <p class="personIntro">As the project director, but also as a web developer, Tim Berners-Lee is
                             involved in the overall
                             planning and evolution of Solid.</p>
-                        <a href="#"><i class="fa fa-github"></i></a>
+                        <div class="team">
+                            <a href="#" class="fab fa-github"></a>
+                        </div>
                     </div>
                     <div class="person">
                         <img class="profilePic" src="./imgs/lalana.jpg" alt="Lalana">
@@ -152,8 +154,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="personLayout">
 
+                <div class="personLayout mgt-20">
                     <div class="person">
                         <img class="profilePic" src="./imgs/ericp.jpg" alt="Eric">
                         <p class="name">Eric</p>
@@ -162,7 +164,9 @@
                             systems, including
                             query
                             systems.</p>
-                        <a href="#"><i class="fa fa-github"></i></a>
+                        <div class="team">
+                            <a href="#" class="fab fa-github"></a>
+                        </div>
                     </div>
                     <div class="person">
                         <img class="profilePic" src="./imgs/melvin.png" alt="Melvin">
@@ -170,7 +174,9 @@
                         <p class="personIntro">Melvin is an independent developer who likes to collaborate with us on
                             Solid
                             applications.</p>
-                        <a href="#"><i class="fa fa-github"></i></a>
+                        <div class="team">
+                            <a href="#" class="fab fa-github"></a>
+                        </div>
                     </div>
                     <div class="person">
                         <img class="profilePic" src="./imgs/ruben.jpg" alt="Ruben">
@@ -180,104 +186,115 @@
                             imec, and a
                             recurring
                             visitor to MIT/CSAIL.</p>
-                        <a href="#"><i class="fa fa-github"></i></a>
+                        <div class="team">
+                            <a href="#" class="fab fa-github"></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="centerColumn">
+            <div class="centerColumn sectionWhite">
                 <h2>Team alumni</h2>
                 <hr>
-                <div class="person">
-                    <img class="profilePic" src="./imgs/amy.png" alt="Amy">
-                    <p class="name">Amy</p>
-                    <p class="personIntro">Amy was a PhD visiting student at MIT from the University of Edinburgh in
-                        2015-2016. She led the
-                        bridging of the Solid concepts with the W3C Social Web WG, and co-led the development of the
-                        Linked
-                        Data Notifications (LDN) protocol.</p>
-                    <!-- find a way to fix them goddamn icons! -->
-                    <a href="#"><i class="fa fa-hand-spock"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
-                <div class="person">
-                    <img class="profilePic" src="./imgs/andrei.png" alt="Andrei">
-                    <p class="name">Andrei</p>
-                    <p class="personIntro">Andrei was a researcher and developer for the Solid project. His time is
-                        spent between writing
-                        code
-                        and helping advance the Solid project.</p>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
-                <div class="person">
-                    <img class="profilePic" src="./imgs/daniel.jpg" alt="Daniel">
-                    <p class="name">Daniel</p>
-                    <p class="personIntro">Daniel was a front-end developer for the Solid project. He did amazing work
-                        writing client-side
-                        apps,
-                        and he contributed to the libraries, to integrate the two forms of authentication into the
-                        double
-                        auth stack.</p>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
-                <div class="person">
-                    <img class="profilePic" src="./imgs/dmitri.jpg" alt="Dmitri">
-                    <p class="name">Dmitri</p>
-                    <p class="personIntro">Dmitri was the lead developer for the JS-based Solid server, and he played an
-                        important role as
-                        our
-                        community manager. He was responsible for developing the OpenID COnnect (OIDC) authentication.
-                    </p>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
-                <div class="person">
-                    <img class="profilePic" src="./imgs/nicola.jpg" alt="Nicola">
-                    <p class="name">Nicola</p>
-                    <p class="personIntro">Nicola is currently a PhD student at MIT, visiting Protocol Labs for a year
-                        from September 2017.
-                        He
-                        was also a lead developer for the reference implementation of the Solid server.</p>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
-                <div class="person">
-                    <img class="profilePic" src="./imgs/sarven.jpg" alt="Sarven">
-                    <p class="name">Sarven</p>
-                    <p class="personIntro">Sarven was a PhD visiting student at MIT from the University of Bonn in
-                        2015-2016. He co-led the
-                        development of LDN and works on dokieli.</p>
-                    <a href="#"><i class="fa fa-hand-spock"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
+                <div class="personLayout alummni">
+                    <div class="person">
+                        <img class="profilePic" src="./imgs/amy.png" alt="Amy">
+                        <p class="name">Amy</p>
+                        <p class="personIntro">Amy was a PhD visiting student at MIT from the University of Edinburgh in
+                            2015-2016. She led the
+                            bridging of the Solid concepts with the W3C Social Web WG, and co-led the development of the
+                            Linked
+                            Data Notifications (LDN) protocol.</p>
+                        <a href="#"><i class="far fa-hand-spock"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="person">
+                        <img class="profilePic" src="./imgs/andrei.png" alt="Andrei">
+                        <p class="name">Andrei</p>
+                        <p class="personIntro">Andrei was a researcher and developer for the Solid project. His time is
+                            spent between writing
+                            code
+                            and helping advance the Solid project.</p>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="person">
+                        <img class="profilePic" src="./imgs/daniel.jpg" alt="Daniel">
+                        <p class="name">Daniel</p>
+                        <p class="personIntro">Daniel was a front-end developer for the Solid project. He did amazing
+                            work
+                            writing client-side
+                            apps,
+                            and he contributed to the libraries, to integrate the two forms of authentication into the
+                            double
+                            auth stack.</p>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="personLayout mgt-20">
+                        <div class="person">
+                            <img class="profilePic" src="./imgs/dmitri.jpg" alt="Dmitri">
+                            <p class="name">Dmitri</p>
+                            <p class="personIntro">Dmitri was the lead developer for the JS-based Solid server, and he
+                                played an
+                                important role as
+                                our
+                                community manager. He was responsible for developing the OpenID COnnect (OIDC)
+                                authentication.
+                            </p>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="person">
+                            <img class="profilePic" src="./imgs/nicola.jpg" alt="Nicola">
+                            <p class="name">Nicola</p>
+                            <p class="personIntro">Nicola is currently a PhD student at MIT, visiting Protocol Labs for
+                                a
+                                year
+                                from September 2017.
+                                He
+                                was also a lead developer for the reference implementation of the Solid server.</p>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="person">
+                            <img class="profilePic" src="./imgs/sarven.jpg" alt="Sarven">
+                            <p class="name">Sarven</p>
+                            <p class="personIntro">Sarven was a PhD visiting student at MIT from the University of Bonn
+                                in
+                                2015-2016. He co-led the
+                                development of LDN and works on dokieli.</p>
+                            <a href="#"><i class="far fa-hand-rock"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section class="sectionWhite">
             <h2>Sponsors</h2>
-            <div>
-                <img src="./imgs/qcri_logo.png" alt="Qcri_logo">
-                <!-- <img src="./imgs/mastercard-logo.png" alt="Mastercard_logo"> -->
+            <div class="sponsorLogos">
+                <img class="qcriLogo" src="./imgs/qcri_logo.png" alt="Qcri_logo">
+                <img class="mastercardLogo" src="./imgs/mastercard-logo.png" alt="Mastercard_logo">
             </div>
         </section>
-        <section>
-            <h2>Contact us</h2>
+        <section class="sectionWhite centerColumn">
+            <h2>Contact Us</h2>
             <hr>
-            <div>
-                <div>
-                    <i class="fas fa-map-marker-alt"></i>
+            <div class="contactLayout">
+                <div class="contactInfo">
+                    <i class="fas fa-map-marker-alt fa-2x contactIcon"></i>
                     <p>CSAIL-MIT <br>32 Vassar Street <br>Cambridge, MA 02139, USA</p>
                 </div>
-                <div>
-                    <i class="fa fa-github footer"></i>
+                <div class="contactInfo">
+                    <i class="fab fa-github fa-2x contactIcon" aria-hidden="true"></i><br>
                     <a href="github.com/solid">github.com/solid</a>
                 </div>
-                <div>
-                    <i class="fa fa-twitter footer"></i>
+                <div class="contactInfo">
+                    <i class="fab fa-twitter fa-2x contactIcon"></i><br>
                     <a href="https://twitter.com/solidmit">@SolidMIT</a>
                 </div>
             </div>
